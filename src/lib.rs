@@ -44,7 +44,7 @@ impl<T> ArcCell<T> {
 #[test]
 fn test() {
     let a = ArcCell::new(10);
-    let ref_mut_a = unsafe { ArcCell::get_mut_uncheck(&a) };
+    let ref_mut_a = unsafe { ArcCell::get_mut_unchecked(&a) };
     *ref_mut_a = 11;
     assert_eq!(*a, 11);
 }
