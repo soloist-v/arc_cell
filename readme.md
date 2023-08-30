@@ -1,5 +1,10 @@
 Arc obtains internal variability
 
+```toml
+[dependencies]
+arcell = "0.1"
+```
+
 ```rust
 let a = ArcCell::new(10);
 unsafe {

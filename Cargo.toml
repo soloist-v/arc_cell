@@ -17,3 +17,4 @@ name = "arcell"
 path = "src/lib.rs"
 
 [dependencies]
+arcell = "0.1"
