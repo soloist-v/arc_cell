@@ -36,7 +36,7 @@ impl<T> ArcCell<T> {
         }
     }
     #[inline(always)]
-    pub unsafe fn get_mut_uncheck(arc_cell: &Self) -> &mut T {
+    pub unsafe fn get_mut_unchecked(arc_cell: &Self) -> &mut T {
         &mut *UnsafeCell::get(&arc_cell.data)
     }
 }
