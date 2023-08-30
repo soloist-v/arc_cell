@@ -1,6 +1,6 @@
 [package]
 name = "arcell"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 license = "MIT"
 keywords = ["arc", "cell", "arc-cell"]
@@ -17,4 +17,3 @@ name = "arcell"
 path = "src/lib.rs"
 
 [dependencies]
-arcell = "0.1"
