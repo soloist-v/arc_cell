@@ -2,7 +2,9 @@
 name = "arc_cell"
 version = "0.1.0"
 edition = "2021"
-license = "Apache-2.0"
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
-
+license = "MIT"
+keywords = ["arc", "cell", "arc-cell"]
+authors = ["Zen <mr.sololife@gmail.com>"]
+description = "Arc obtains internal variability"
+repository = "https://github.com/soloist-v/arc_cell.git"
 [dependencies]
