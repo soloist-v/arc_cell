@@ -6,7 +6,7 @@ license = "MIT"
 keywords = ["arc", "cell", "arc-cell"]
 authors = ["Zen <mr.sololife@gmail.com>"]
 description = "Arc obtains internal variability"
-repository = "https://github.com/soloist-v/arc_cell.git"
+repository = "https://github.com/soloist-v/arcell.git"
 include = [
     "/src/*",
     "/Cargo.toml",
