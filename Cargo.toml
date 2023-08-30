@@ -7,4 +7,10 @@ keywords = ["arc", "cell", "arc-cell"]
 authors = ["Zen <mr.sololife@gmail.com>"]
 description = "Arc obtains internal variability"
 repository = "https://github.com/soloist-v/arc_cell.git"
+include = [
+    "/src/*",
+    "/Cargo.toml",
+    "/readme.md",
+]
+
 [dependencies]
